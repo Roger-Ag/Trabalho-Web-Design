@@ -39,24 +39,44 @@
         <h1 class="texto-banner"> Itens <br> Únicos </h1>
     </div>
 
-    <div class="roda_de_produtos">
-        <div> <img src="img/radio.webp">
-            <h3> Radio Retro</h3> <br>
-            <h4><sup>R$</sup>99,90</h4>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div> <img src="img/telefone.png!sw800">
-            <h3> Telefone vintage</h3> <br>
-            <h4><sup>R$</sup>123,40</h4>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/telefone.png!sw080" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Telefone vintage</h5>
+              <p>123,40</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/1515-removebg-preview-1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Máquina de escrever</h5>
+              <p>240,00</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/radio.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Radio Retro</h5>
+              <p>99,90</p>
+            </div>
+          </div>
         </div>
-        <div> <img src="img/1515-removebg-preview-1.png">
-            <h3> Máquina de escrever</h3> <br>
-            <h4><sup>R$</sup>240,00</h4>
-        </div>
-        <div> <img src="img/antigo_abajur_em_bronze_55cm_altura_25745_1_47139d13b8ba0f73c9db8b13a57c9279.webp">
-            <h3> Abajur Retro</h3> <br>
-            <h4><sup>R$</sup>210,00</h4>
-        </div>
-    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <div class="sobre-nos">
         <img src="img/download-removebg-preview.png">
         <h2> Sobre Nós</h2> <br>
