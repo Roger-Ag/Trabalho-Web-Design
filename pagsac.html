@@ -1,104 +1,196 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Sac</title>
-</head>
+  </head>
 
-<body style="background-color: #323b25;">
-
-    <header> <!--header do site-->
-        <div class="logo-imagem">
-            <img style="height: 80px;" src="img/download-removebg-preview.png" alt="logotipo Oldfind">
-        </div>
-        <div class="logo-texto">
-            <h1>Oldfind</h1>
-        </div>
-        <div>
-            <img class="carrinho-logo" src="img/bolsa-de-compras.png" alt="icone do carrinho de compras">
-        </div>
+  <body style="background-color: #323b25">
+    <header>
+      <!--header do site-->
+      <div class="logo-imagem">
+        <img
+          style="height: 80px"
+          src="img/download-removebg-preview.png"
+          alt="logotipo Oldfind"
+        />
+      </div>
+      <div class="logo-texto">
+        <h1>Oldfind</h1>
+      </div>
+      <div>
+        <img
+          class="carrinho-logo"
+          src="img/bolsa-de-compras.png"
+          alt="icone do carrinho de compras"
+        />
+      </div>
     </header>
 
-    <nav id="menu-h">
-        <ul>
-            <li><a href="index.html" target="_self"> <b>Home</b></a></li>
-            <li><a href="pagloja.html" target="_self"><b>Loja</b></a></li>
-            <li><a href="pagsac.html" target="_self"><b>SAC</b></a></li>
-        </ul> <!--menu-->
+    <nav id="menu-h" class="navbar navbar-expand-lg">
+      <div style="background-color: #323b25" class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                ><b>Home</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagloja.html"><b>Loja</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagsac.html"
+                ><b>SAC</b></a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
     </nav>
+
     <div class="banner-sac">
-        <h1>Fale Conosco</h1> <br>
-        <h2>Centro de atendimento ao consumidor. Aqui você poderá tirar suas dúvidas sobre nossos produtos e entrar em
-            contato conosco caso tenha alguma reclamação em relação aos nossos serviços. <br>Faça seu login para entrar
-            em contato</h2>
+      <h1>Fale Conosco</h1>
+      <br />
+      <h2>
+        Centro de atendimento ao consumidor. Aqui você poderá tirar suas dúvidas
+        sobre nossos produtos e entrar em contato conosco caso tenha alguma
+        reclamação em relação aos nossos serviços. <br />Faça seu login para
+        entrar em contato
+      </h2>
     </div>
     <div class="container">
-        <div class="container-sac">
-            <div>
-                <img class="form-img" src="img/decoração.webp" alt="imagem do formulário">
-            </div>
-            <div class="form">
-                <form action="#">
-                    <div class="form-header">
-                        <div class title>
-                            <h1>Cadastre-se</h1>
-                        </div>
-                        <div class="login-button">
-                            <button><a href="#">Entrar</a></button>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <div class="input-box">
-                            <label for="firstname">Primeiro nome</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
-                                required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="lastname">Sobrenome</label>
-                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome"
-                                required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="email">E-mail</label>
-                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="number">Celular</label>
-                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="password">Senha</label>
-                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
-                                required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="confirmPassword">Confirme sua senha</label>
-                            <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirmar senha"
-                                required>
-                        </div>
-                    </div>
-                    <div class="continue-button">
-                        <button><a href="#">Continuar</a></button>
-                    </div>
-                </form>
-            </div>
+      <div class="container-sac">
+        <div>
+          <img
+            class="form-img"
+            src="img/decoração.webp"
+            alt="imagem do formulário"
+          />
         </div>
+        <div class="form">
+          <form action="#">
+            <div class="form-header">
+              <div class title>
+                <h1>Cadastre-se</h1>
+              </div>
+              <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <label for="firstname">Primeiro nome</label>
+                <input
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Digite seu primeiro nome"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="lastname">Sobrenome</label>
+                <input
+                  id="lastname"
+                  type="text"
+                  name="lastname"
+                  placeholder="Digite seu sobrenome"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu email"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="number">Celular</label>
+                <input
+                  id="number"
+                  type="tel"
+                  name="number"
+                  placeholder="(xx) xxxx-xxxx"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="password">Senha</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Digite sua senha"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="confirmPassword">Confirme sua senha</label>
+                <input
+                  id="confirmPassword"
+                  type="password"
+                  name="confirmPassword"
+                  placeholder="Confirmar senha"
+                  required
+                />
+              </div>
+            </div>
+            <div class="continue-button">
+              <button><a href="#">Continuar</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <div>
-        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57065.84982959635!2d-48.73591410274734!3d-26.62876504025838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d92b137cb564f9%3A0x1d8e6085c66acdcf!2sBarra%20Velha%2C%20SC%2C%2088390-000!5e0!3m2!1spt-BR!2sbr!4v1716319723512!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+      <iframe
+        class="iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57065.84982959635!2d-48.73591410274734!3d-26.62876504025838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d92b137cb564f9%3A0x1d8e6085c66acdcf!2sBarra%20Velha%2C%20SC%2C%2088390-000!5e0!3m2!1spt-BR!2sbr!4v1716319723512!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
-
-
-
-</body>
-
+  </body>
 </html>

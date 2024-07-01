@@ -1,392 +1,352 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
-    width: 100%;
-    padding: 20px 0;
-    background-color: #28311B;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-
+  width: 100%;
+  padding: 20px 0;
+  background-color: #28311b;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
 }
 
 .logo-imagem {
-    width: 100px;
-    border-radius: 25px;
-    align-items: center;
-    height: 80px;
+  width: 100px;
+  border-radius: 25px;
+  align-items: center;
+  height: 80px;
 }
 
-.logo-texto {
-    margin-left: 60px;
-    color: #8fbc8f;
-    font-family: "Dosis", sans-serif;
+.ogo-texto {
+  margin-left: 60px;
+  color: #8fbc8f;
+  font-family: "Dosis", sans-serif;
 }
 
 .carrinho-logo {
-    width: 55px;
-    height: 66px;
-    align-items: center;
-    margin-left: 1000px;
-    color: #FFF;
+  width: 55px;
+  height: 66px;
+  align-items: center;
+  margin-left: 1000px;
+  color: #fff;
 }
 
 #menu-h ul {
-    font-family: "Montserrat", sans-serif;
-    background-color: #323b25;
-    list-style: none;
-    padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #323b25;
+  list-style: none;
+  padding: 0;
 }
 
 #menu-h ul li {
-    display: inline;
+  display: inline;
 }
 
 #menu-h ul li a {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    padding: 20px;
-    transition: background .4s;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+  transition: background 0.4s;
 }
 
 #menu-h ul li a:hover {
-    background-color: #ff7f50;
+  background-color: #ff7f50;
 }
 
 #menu-h b {
-    color: #8fbc8f;
+  color: #8fbc8f;
 }
 
-.banner {
-    width: 960px;
-    height: 438px;
-    background-color: #ff7f50;
-    margin-top: 100px;
-    margin-left: 270px;
-    border-radius: 5%;
-    margin-bottom: 95px;
+#banner {
+  width: 45rem;
+  height: 438px;
+  background-color: #ff7f50;
+  margin-top: 100px;
+  margin-left: 25rem;
+  border-radius: 5%;
+  margin-bottom: 95px;
 }
 
 .texto-banner {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    top: 65%;
-    left: 68%;
-    color: #fffdd0;
-    text-align: center;
-    font-family: "Dosis", sans-serif;
-    font-size: 64px;
+  position: absolute;
+  transform: translate(-30%, -90%);
+  z-index: 1;
+  top: 65%;
+  left: 68%;
+  color: #fffdd0;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 64px;
 }
 
-.imagem-banner {
-    width: 480px;
-    height: 438px;
-    float: left;
-}
 
-.roda_de_produtos {
-    display: flex;
-    background-color: #323b25;
-    width: 100%;
-    height: 350px;
-    justify-content: space-evenly;
-}
-
-.roda_de_produtos img {
-    margin-top: 50px;
-    width: 213px;
-    height: 208px;
-    background-color: #8fbc8f;
-    border-radius: 25%;
-}
-
-.roda_de_produtos h3 {
-    font-family: "Dosis", sans-serif;
-    color: #8fbc8f;
-    font-size: 20px;
-    text-align: center;
-}
-
-.roda_de_produtos h4 {
-    font-family: "Dosis", sans-serif;
-    color: #8fbc8f;
-    font-size: 20px;
-    text-align: left;
-}
-
-.nome-produto {
-margin-top: 20px;
-}
 
 .sobre-nos {
-    width: 100%;
-    height: 929px;
-    background-color: #ff7f50;
-    border-radius: 5%;
-    align-items: center;
+  width: 100%;
+  height: 929px;
+  background-color: #ff7f50;
+  border-radius: 5%;
+  align-items: center;
 }
 
 .sobre-nos img {
-    padding-left: 337px
+  padding-left: 337px;
 }
 
 .sobre-nos h2 {
-    color: #fffdd0;
-    font-size: 48px;
-    padding-left: 614px;
-    font-family: "Dosis", sans-serif;
+  color: #fffdd0;
+  font-size: 48px;
+  padding-left: 614px;
+  font-family: "Dosis", sans-serif;
 }
 
 .sobre-nos h3 {
-    color: #fffdd0;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Dosis", sans-serif;
+  color: #fffdd0;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Dosis", sans-serif;
 }
 
 .loja {
-    width: 95%;
-    height: 20%;
-    background-color: #323b25;
-    margin-top: 50px;
-    margin-left: 36px;
-    margin-right: 20px;
-    border-radius: 4%;
+  width: 95%;
+  height: 20%;
+  background-color: #323b25;
+  margin-top: 50px;
+  margin-left: 36px;
+  margin-right: 20px;
+  border-radius: 4%;
 }
 
 .indicador-produto {
-    font-family: "Montserrat", sans-serif;
-    color: #8fbc8f;
-    padding-left: 30px;
-    padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #8fbc8f;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .loja-container {
-    display: flex;
-    background-color: #323b25;
-    width: 100%;
-    height: 390px;
-    justify-content: space-evenly;
+  display: flex;
+  background-color: #323b25;
+  width: 100%;
+  height: 500px;
+  justify-content: space-evenly;
 }
 
 .loja-container img {
-    margin-top: 50px;
-    width: 213px;
-    height: 208px;
-    background-color: #8fbc8f;
-    border-radius: 25%;
+  margin-top: 50px;
+  width: 213px;
+  height: 208px;
+  background-color: #8fbc8f;
+  border-radius: 25%;
 }
 
 .loja-container h3 {
-    font-family: "Dosis", sans-serif;
-    color: #8fbc8f;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Dosis", sans-serif;
+  color: #8fbc8f;
+  font-size: 20px;
+  text-align: center;
 }
 
 .loja-container h4 {
-    font-family: "Dosis", sans-serif;
-    color: #8fbc8f;
-    font-size: 20px;
-    text-align: left;
+  font-family: "Dosis", sans-serif;
+  color: #8fbc8f;
+  font-size: 20px;
+  text-align: left;
 }
 
 .loja-container button {
-    border: none;
-    background-color: #8fbc8f;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: 27px;
+  border: none;
+  background-color: #8fbc8f;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 27px;
 }
 
 .loja-container button:hover {
-    background-color: #ff7f50;
+  background-color: #ff7f50;
 }
 
 .loja-container button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #323b25;
+  text-decoration: none;
+  font-weight: 500;
+  color: #323b25;
 }
 
 .banner-sac {
-    width: 100%;
-    height: 278px;
-    background-color: #28311B;
+  width: 100%;
+  height: 278px;
+  background-color: #28311b;
 }
 
 .banner-sac h1 {
-    font-family: "Dosis", sans-serif;
-    padding-top: 30px;
-    padding-left: 40%;
-    color: #8fbc8f;
-    font-size: 60px;
+  font-family: "Dosis", sans-serif;
+  padding-top: 30px;
+  padding-left: 40%;
+  color: #8fbc8f;
+  font-size: 60px;
 }
 
 .banner-sac h2 {
-    font-family: "Dosis", sans-serif;
-    color: #8fbc8f;
-    font-size: 30px;
-    text-align: center;
+  font-family: "Dosis", sans-serif;
+  color: #8fbc8f;
+  font-size: 30px;
+  text-align: center;
 }
 
 .container {
-    font-family: 'Inter', sans-serif;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #323b25;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #323b25;
 }
 
 .container-sac {
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    box-shadow: 5px 5px 10px #8fbc8f;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  box-shadow: 5px 5px 10px #8fbc8f;
 }
 
 .form-img {
-    width: 650px;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #323b25;
-    padding: 2rem;
+  width: 650px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323b25;
+  padding: 2rem;
 }
 
 .form {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #323b25;
-    padding: 3rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #323b25;
+  padding: 3rem;
 }
 
 .form-header {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .login-button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .login-button button {
-    border: none;
-    background-color: #8fbc8f;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
+  border: none;
+  background-color: #8fbc8f;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .login-button button:hover {
-    background-color: #ff7f50;
+  background-color: #ff7f50;
 }
 
 .login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #323b25;
+  text-decoration: none;
+  font-weight: 500;
+  color: #323b25;
 }
 
 .form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: #ff7f50;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #ff7f50;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
 }
 
 .form-header h1 {
-    color: #8fbc8f;
+  color: #8fbc8f;
 }
 
 .input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
 }
 
 .input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #8fbc8f;
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #8fbc8f;
 }
 
 .input-box input:hover {
-    background-color: #8fbc8f;
+  background-color: #8fbc8f;
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #323b25;
+  outline: 1px solid #323b25;
 }
 
 .input-box label,
 .gender-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #8fbc8f;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #8fbc8f;
 }
 
 .input-box input::placeholder {
-    color: #000000be;
+  color: #000000be;
 }
 
 .continue-button button {
-    width: 100%;
-    margin-top: 2.5rem;
-    border: none;
-    background-color: #8fbc8f;
-    padding: 0.62rem;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #8fbc8f;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .continue-button button:hover {
-    background-color: #ff7f50;
+  background-color: #ff7f50;
 }
 
 .continue-button button a {
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 500;
-    color: #fff;
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 .iframe {
-    display: block;
-    margin-left: 10%;
-    width: 80%;
+  display: block;
+  margin-left: 10%;
+  width: 80%;
 }

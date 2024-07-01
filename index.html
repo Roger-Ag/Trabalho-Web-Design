@@ -24,19 +24,42 @@
         </div>
     </header>
 
-    <nav id="menu-h">
-        <ul>
-            <li><a href="index.html" target="_self"> <b>Home</b></a></li>
-            <li><a href="pagloja.html" target="_self"><b>Loja</b></a></li>
-            <li><a href="pagsac.html" target="_self"><b>SAC</b></a></li>
-        </ul> <!--menu-->
+    <nav id="menu-h" class="navbar navbar-expand-lg ">
+      <div style="background-color: #323b25;" class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagloja.html"><b>Loja</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagsac.html"><b>SAC</b></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
 
-    <div class="banner">
-        <img class="imagem-banner"
-            style="width: 500px; height: 438px; float: left; border-top-left-radius: 5%; border-bottom-left-radius: 5%;"
-            src="img/vintage.jpg" alt="imagem do banner principal">
-        <h1 class="texto-banner"> Itens <br> Únicos </h1>
+    <div id="banner" class="card mb-3" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img style="width: 22rem; height: 438px; border-top-left-radius: 5%; border-bottom-left-radius: 5%;" src="img/vintage.jpg">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="texto-banner">Itens <br> Unicos</h5>
+          </div>
+        </div>
+      </div>
     </div>
   <div class="container">
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
