@@ -24,7 +24,7 @@ header {
   height: 80px;
 }
 
-.ogo-texto {
+.logo-texto {
   margin-left: 60px;
   color: #8fbc8f;
   font-family: "Dosis", sans-serif;
@@ -70,14 +70,15 @@ header {
   height: 438px;
   background-color: #ff7f50;
   margin-top: 100px;
-  margin-left: 25rem;
+  margin-left: 24rem;
   border-radius: 5%;
   margin-bottom: 95px;
 }
 
 .texto-banner {
+  flex-direction: row;
   position: absolute;
-  transform: translate(-30%, -90%);
+  transform: translate(-95%, -30%);
   z-index: 1;
   top: 65%;
   left: 68%;
@@ -87,7 +88,36 @@ header {
   font-size: 64px;
 }
 
+#carouselExampleAutoplaying {
+  display: flex;
+  background-color: #323b25;
+  width: 100%;
+  height: 350px;
+  justify-content: space-evenly;
+}
 
+#carouselExampleAutoplaying img {
+  margin-left: 40rem;
+  margin-top: 50px;
+  width: 213px;
+  height: 208px;
+  background-color: #8fbc8f;
+  border-radius: 25%;
+}
+
+#carouselExampleAutoplaying h2 {
+  font-family: "Dosis", sans-serif;
+  color: #8fbc8f;
+  font-size: 20px;
+  text-align: center;
+}
+
+#carouselExampleAutoplaying h3 {
+  font-family: "Dosis", sans-serif;
+  color: #8fbc8f;
+  font-size: 20px;
+  text-align: center;
+}
 
 .sobre-nos {
   width: 100%;
@@ -98,7 +128,7 @@ header {
 }
 
 .sobre-nos img {
-  padding-left: 337px;
+  padding-left: 20rem;
 }
 
 .sobre-nos h2 {
@@ -349,4 +379,22 @@ header {
   display: block;
   margin-left: 10%;
   width: 80%;
+}
+
+@media screen and (max-width: 1020px) {
+  .menu-h {
+    display: none;
+  }
+
+  .flex img {
+    max-width: 1010px, 800vw;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .sobre-nos {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
 }
